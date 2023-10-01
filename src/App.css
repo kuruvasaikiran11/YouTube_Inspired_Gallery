@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+body{
+  background-color: #0F0F0F;
+  color: white;
+  font-family: 'Roboto Serif', serif;
+}
+
+.App {
+  width: 90%;
+  margin: 100px auto;
+  background-color: #0F0F0F;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#wrapper{
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  /* margin-left: 50px; */
+}
+
+#video-card{
+  width: calc(33% - 32px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+}
+
+#video-card #channel{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+#channel-name{
+  color: #EEEEEE;
+  opacity: 0.5;
+  font-size: 18px;
+  transition: all ease-in-out .4s;
+}
+
+#channel-name:hover{
+  opacity: 1;
+}
+
+#video-card #channel img{
+  width: 48px;
+  border-radius: 50%;
+}
+
+#thumbnail{
+  cursor: pointer;
+}
+
+#thumbnail img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#video-details{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#video-stats{
+  display: flex;
+  justify-content: start;
+}
+
+#video-details p{
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+#views, #likes{
+  color: #AAAAAA;
+}
+
+#views::before{
+  content: "|";
+  margin: 0 12px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
