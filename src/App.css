@@ -19,7 +19,7 @@ body{
 
 #wrapper{
   display: flex;
-  justify-content: right;
+  justify-content: start;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 20px;
@@ -53,6 +53,7 @@ body{
 
 #video-card #channel img{
   width: 48px;
+  height: 50px;
   border-radius: 50%;
 }
 
