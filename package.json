@@ -1,6 +1,6 @@
 {
   "homepage": "https://kuruvasaikiran11.github.io/YouTube_Inspired_Gallery",
-  "name": "YouTube_Inspired_Gallery",
+  "name": "youtube-gallery",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
