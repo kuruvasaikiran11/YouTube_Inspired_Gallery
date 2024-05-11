@@ -4,6 +4,7 @@ body{
   background-color: #0F0F0F;
   color: white;
   font-family: 'Roboto Serif', serif;
+  margin-bottom: 50px;
 }
 
 .App {
@@ -12,6 +13,9 @@ body{
   /* margin-top: 100px;
   margin-left: auto; */
   background-color: #0F0F0F;
+}
+
+.App h1{
   text-align: center;
   font-size: 28px;
   font-style: italic;
@@ -38,6 +42,7 @@ body{
   display: flex;
   flex-direction: column;
   border-radius: 12px;
+  border: 1px solid white;
 }
 
 #video-card #channel{
